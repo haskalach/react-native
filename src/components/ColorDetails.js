@@ -1,16 +1,15 @@
 import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
-const ColorDetails = ({ color, index }) => {
+const ColorDetails = ({ color }) => {
     return (
         <View style={{
-            width: 30,
-            height: 30,
+            width: 70,
+            height: 70,
             borderWidth: 1,
             borderColor: 'black',
             backgroundColor: color
         }} >
-            <Text>{index}</Text>
         </View>
     )
 };
